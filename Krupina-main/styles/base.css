@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 html,
 body {
-font-family: 'Arial', sans-serif;
+font-family: Rubik, 'Arial', sans-serif;
 font-size: medium;
 line-height: normal;
 color: #000000;
@@ -16,7 +16,7 @@ img {
     max-width: 100%;
     height: auto;
     }
-.visually-hidden/ {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -28,4 +28,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
     }
-    
+/* Установите максимальную ширину для контейнера */
+.container {
+    max-width: 1200px; /* Установите нужное максимальное значение */
+    margin: 0 auto; /* Центрирование контейнера */
+    overflow-x: hidden; /* Скрыть горизонтальную прокрутку по умолчанию */
+}
